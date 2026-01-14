@@ -64,6 +64,12 @@ export default function Home() {
           </div>
           <nav className="flex gap-2 sm:gap-4">
             <Link 
+              href="/teste-db" 
+              className="px-3 sm:px-6 py-2 border border-green-500 text-green-500 rounded-lg hover:bg-green-500 hover:text-black transition-all duration-300 text-sm sm:text-base"
+            >
+              Teste DB
+            </Link>
+            <Link 
               href="/login" 
               className="px-3 sm:px-6 py-2 border border-[#d4af37] text-[#d4af37] rounded-lg hover:bg-[#d4af37] hover:text-black transition-all duration-300 text-sm sm:text-base"
             >
